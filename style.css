@@ -1,0 +1,152 @@
+.navbar{
+    background-color:white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  .navbar-default .navbar-brand{
+    color:black;
+  }
+  .navbar-default .navbar-nav>li>a {
+      color:black;
+  }
+  .navbar-brand{
+    font-size:30px;
+    font-weight:bold;
+    color:green;
+  }
+  .navbar-right{
+    font-size:20px;
+    display: flex;
+    flex-direction: row;
+  }
+  nav>div>ul>li{
+    margin-left: 100px;
+}
+/* Navbar over */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #D6D8FF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  #header-img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  #title-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  #email {
+      height: 25px;
+      max-width: 300px;
+      width: 100%;
+      padding: 15px;
+  }
+
+  #title-form > h2 {
+    margin-bottom: 20px;
+  }
+  
+  #submit {
+    background-color: #B39000;
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    }
+
+    #Features {
+        margin-top: 60px;
+      }
+
+    #Features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: #B39000;
+}
+    @media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+  }
+
+    .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+
+  #how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+  
+  #medium-container-row{
+    padding-top: 60px;
+    max-width: 1000px;
+	  margin: 0 auto;
+  	display: flex;
+    flex-direction: row;
+  }
+
+  .item {
+    padding-top: 20px;
+    flex: 1;
+    margin: 5px;
+    background: #D6D8FF;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .tenor{
+    color: #B39000;
+  }
